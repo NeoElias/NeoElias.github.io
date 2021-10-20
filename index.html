@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/vue@v3.2.20"></script>
+    
+</head>
+<body>
+    <div id="app">
+        <h1>Hey, I'm {{ firstName }}. </h1>
+        <p>I am a  mechanical engineer turned software developer.</p>
+        <ul id="horizontal-list" class="fa-ul">
+            <li><span class="fa-li"><a href="https://github.com/NeoElias"><i class="fab fa-github"></i></a></span>Github</li>
+            <li><span class="fa-li"><a href="https://linkedin.com/in/neom15"><i class="fab fa-linkedin"></i></a></span>LinkedIn</li>
+            <li><span class="fa-li"><a href="#"><i class="fas fa-envelope"></i></a></span>Email</li> 
+             
+        </ul>
+    </div>
+
+    <!-- Import App -->
+    <script src="./main.js"></script>
+
+    <!-- Mount App -->
+    <script>
+        const mountedApp = app.mount('#app')
+    </script>
+    
+    
+    
+</body>
+</html>
