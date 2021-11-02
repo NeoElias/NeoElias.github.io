@@ -53,7 +53,7 @@
             <p class="control">
               <a class="button is-info" href="#">
                 <span class="icon">
-                  <font-awesome-icon :icon="['fas', 'download']" />
+                  <font-awesome-icon :icon="['fas', 'file-download']" />
                 </span>
               </a>
             </p>
