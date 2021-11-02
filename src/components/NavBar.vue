@@ -51,7 +51,11 @@
               </a>
             </p>
             <p class="control">
-              <a class="button is-info" href="#">
+              <a
+                class="button is-info"
+                href="https://myvueprojectfiles.s3.us-east-2.amazonaws.com/NeoMaraisaneResume.pdf"
+                target="blank_"
+              >
                 <span class="icon">
                   <font-awesome-icon :icon="['fas', 'file-download']" />
                 </span>
