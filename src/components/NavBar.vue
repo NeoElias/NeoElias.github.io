@@ -1,5 +1,9 @@
 <template>
-  <nav class="navbar" role="navigation" aria-label="main navigation">
+  <nav
+    class="navbar is-transparent"
+    role="navigation"
+    aria-label="main navigation"
+  >
     <div class="navbar-brand">
       <a class="navbar-item" href="https://neoelias.github.io">
         <img src="../assets/nm-logo.png" width="85" height="43" />
@@ -100,7 +104,6 @@ export default {
 
 <style scoped>
 .navbar {
-  background-color: aquamarine;
   margin-bottom: 20px;
 }
 

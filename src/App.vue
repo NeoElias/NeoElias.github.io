@@ -1,7 +1,7 @@
 <template>
   <NavBar />
-  <img alt="Profile Image" src="./assets/profile-pic.jpeg" />
-  <Home msg="Hey, I'm Neo." />
+
+  <Home msg="Hey, I'm Neo" />
   <AboutMe />
   <MyProjects />
   <ContactMe />
@@ -30,11 +30,8 @@ export default {
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
+html,
+body {
+  background-color: none;
 }
 </style>

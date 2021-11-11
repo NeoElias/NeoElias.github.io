@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="mystory">
     <h1>About Me</h1>
     <p>
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
@@ -18,3 +18,16 @@ export default {
   name: "AboutMe",
 };
 </script>
+
+<style scoped>
+.mystory {
+  margin: 40px;
+}
+h1 {
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+</style>
