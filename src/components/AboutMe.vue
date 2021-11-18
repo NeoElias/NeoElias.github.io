@@ -1,15 +1,22 @@
 <template>
-  <div class="mystory">
-    <h1>About Me</h1>
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-      veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-      commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-      velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-      cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
-      est laborum.
-    </p>
+  <h1>About Me</h1>
+  <div id="mystory" class="columns">
+    <div class="column">
+      <p>
+        Highly coachable web developer with experience in JavaScript and Python.
+        I have a passion for learning new technologies and have a demonstrated
+        history of gaining new skills quickly throughout multiple previous
+        roles. My background is in mechanical engineering with 4 years spent in
+        product engineering collaborating with global teams at John Deere and
+        Eaton. I enjoy solving challenging problems and working in a
+        collaborative environment. I am seeking to solidify my professional
+        software development skills and join an innovative, high-performing
+        software team.
+      </p>
+    </div>
+    <div class="column">
+      <img alt="Profile Image" src="../assets/profile-pic.jpeg" />
+    </div>
   </div>
 </template>
 
@@ -20,7 +27,7 @@ export default {
 </script>
 
 <style scoped>
-.mystory {
+#mystory {
   margin: 40px;
 }
 h1 {

@@ -1,14 +1,10 @@
 <template>
-  <div id="mybio" class="columns reverse-columns">
-    <div class="column is-two-fifths">
+  <div id="mybio" class="columns">
+    <div class="column">
       <h1 class="title is-1">{{ msg }}</h1>
       <h3>Software Developer</h3>
       <hr class="solid" />
-      <p>I'm a passionate developer with a keen eye to details</p>
-    </div>
-
-    <div class="column is-narrow">
-      <img alt="Profile Image" src="../assets/profile-pic.jpeg" />
+      <p>I'm a passionate developer with a keen eye for details.</p>
     </div>
   </div>
 </template>
@@ -23,35 +19,27 @@ export default {
 </script>
 
 <style scoped>
-@media (max-width: 767px) {
-  .reverse-columns {
-    flex-direction: column-reverse;
-    display: flex;
-  }
-}
 #mybio {
-  margin: 40px;
-  margin-left: 90px;
-  /* padding: 50px; */
-  /* padding-right: 20px; */
+  margin: 30vh;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  height: 40vh;
 }
 
-img {
-  border-radius: 293456px;
-  /* margin-top: -50px; */
-}
 h1.title {
   margin-bottom: 4px;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
 }
 
 h3 {
+  margin-top: 10px;
   text-transform: uppercase;
   font-size: 14px;
 }
 hr.solid {
-  margin-top: 10px;
   border-top: 2px solid black;
   width: 4rem;
+  margin: 5px auto 30px;
 }
 </style>

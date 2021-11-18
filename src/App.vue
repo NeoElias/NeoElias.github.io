@@ -1,7 +1,7 @@
 <template>
   <NavBar />
 
-  <Home msg="Hey, I'm Neo" />
+  <Home msg="Hey, it's me, Neo!" />
   <AboutMe />
   <MyProjects />
   <ContactMe />
