@@ -104,7 +104,8 @@ export default {
 
 <style scoped>
 .navbar {
-  margin-bottom: 20px;
+  margin-left: 30px;
+  margin-right: 30px;
 }
 
 li {
