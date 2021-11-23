@@ -14,11 +14,16 @@
           </header>
           <div class="card-image">
             <figure class="image is-4by3">
-              <img src="../assets/template.png" alt="Placeholder image" />
+              <img src="../assets/brewreview.png" alt="BrewReview" />
             </figure>
           </div>
           <footer class="card-footer">
-            <a href="#" class="card-footer-item">Demo</a>
+            <a
+              href="https://brewreviews.herokuapp.com/"
+              class="card-footer-item"
+              target="blank_"
+              >Demo</a
+            >
           </footer>
         </div>
       </div>
@@ -34,11 +39,16 @@
           </header>
           <div class="card-image">
             <figure class="image is-4by3">
-              <img src="../assets/template.png" alt="Placeholder image" />
+              <img src="../assets/datacollector.png" alt="DataCollector" />
             </figure>
           </div>
           <footer class="card-footer">
-            <a href="#" class="card-footer-item">Demo</a>
+            <a
+              href="https://maraisanewebapps.pythonanywhere.com/"
+              class="card-footer-item"
+              target="blank_"
+              >Demo</a
+            >
           </footer>
         </div>
       </div>
@@ -54,11 +64,19 @@
           </header>
           <div class="card-image">
             <figure class="image is-4by3">
-              <img src="../assets/template.png" alt="Placeholder image" />
+              <img
+                src="https://project-images12.s3.us-east-2.amazonaws.com/tesla-candlestick.png"
+                alt="Stock Analysis Visualization"
+              />
             </figure>
           </div>
           <footer class="card-footer">
-            <a href="#" class="card-footer-item">Demo</a>
+            <a
+              href="https://github.com/NeoElias/stockAnalysis_chart"
+              class="card-footer-item"
+              target="blank_"
+              >Demo</a
+            >
           </footer>
         </div>
       </div>
