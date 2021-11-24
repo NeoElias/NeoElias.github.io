@@ -102,6 +102,5 @@ h1 {
   font-size: 30px;
   font-weight: bold;
   margin-bottom: 20px;
-  text-transform: uppercase;
 }
 </style>
