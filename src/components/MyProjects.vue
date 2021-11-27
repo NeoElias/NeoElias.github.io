@@ -99,7 +99,7 @@ export default {
 
 h1 {
   text-align: center;
-  font-size: 30px;
+  font-size: 1.6rem;
   font-weight: bold;
   margin-bottom: 20px;
 }

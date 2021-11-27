@@ -36,7 +36,7 @@ export default {
 h1 {
   font-size: 1.6rem;
   font-weight: bold;
-  margin-left: 7.5rem;
+  margin-left: 2.4rem;
 }
 p {
   font-size: 1.1rem;
@@ -51,5 +51,15 @@ img {
   display: flex;
   justify-content: center;
   margin-top: 2rem;
+}
+@media only screen and (max-width: 600px) {
+  #mystory {
+    margin: 1.5rem 1.5rem;
+  }
+}
+@media only screen and (min-width: 768px) {
+  #mystory {
+    margin: 1.5rem 1.5rem;
+  }
 }
 </style>

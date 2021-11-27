@@ -26,7 +26,21 @@ export default {
   justify-content: center;
   height: 40vh;
 }
+@media only screen and (max-width: 600px) {
+  #mybio {
+    margin: auto;
+    margin-top: 30vh;
+    height: 70vh;
+  }
+}
 
+@media only screen and (min-width: 768px) {
+  #mybio {
+    margin: auto;
+    margin-top: 30vh;
+    height: 70vh;
+  }
+}
 h1.title {
   margin-bottom: 4px;
   /* text-transform: uppercase; */
