@@ -1,8 +1,8 @@
 <template>
-  <h1>ToolKit</h1>
+  <h1>Technical Skills</h1>
   <div class="columns tool-kit">
     <div class="column">
-      <h3 class="title is-4">Languages</h3>
+      <h5 class="title is-5">Languages</h5>
       <ul>
         <li v-for="language in languages" :key="language.name">
           <img :src="language.icon" alt="language icon" />
@@ -11,16 +11,18 @@
       </ul>
     </div>
     <div class="column">
-      <h3 class="title is-4">Frameworks</h3>
+      <h5 class="title is-5">Frameworks</h5>
       <ul>
         <li v-for="framework in frameworks" :key="framework.name">
           <img :src="framework.icon" alt="framework icon" />
-          <p>{{ framework.name }}</p>
+          <p v-if="framework.name !== 'Flask' && framework.name !== 'Django'">
+            {{ framework.name }}
+          </p>
         </li>
       </ul>
     </div>
     <div class="column">
-      <h3 class="title is-4">Platforms</h3>
+      <h5 class="title is-5">Platforms</h5>
       <ul>
         <li v-for="platform in platforms" :key="platform.name">
           <img :src="platform.icon" alt="platform icon" />
@@ -30,7 +32,7 @@
     </div>
 
     <div class="column">
-      <h3 class="title is-4">Databases</h3>
+      <h5 class="title is-5">Databases</h5>
       <ul>
         <li v-for="database in databases" :key="database.name">
           <img :src="database.icon" alt="database icon" />
@@ -111,16 +113,27 @@ export default {
 <style scoped>
 h1 {
   text-align: center;
-  font-size: 30px;
+  font-size: 1.6rem;
   font-weight: bold;
   margin-bottom: 20px;
 }
 .tool-kit {
   margin: 3rem;
 }
-p {
-  float: right;
-  margin-right: 4.6rem;
-  margin-top: 2.3rem;
+
+img {
+  width: 72px;
+  height: 72px;
+  vertical-align: middle;
+}
+ul {
+  list-style-type: none;
+}
+ul li p {
+  display: inline-block;
+  vertical-align: middle;
+}
+ul li {
+  margin: 5px;
 }
 </style>
