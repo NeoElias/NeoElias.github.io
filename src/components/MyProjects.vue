@@ -4,19 +4,21 @@
     <div class="columns">
       <div class="column">
         <div class="card">
-          <header class="card-header">
-            <p class="card-header-title">BrewReview</p>
-            <button class="card-header-icon" aria-label="more options">
-              <span class="icon">
-                <i class="fas fa-angle-down" aria-hidden="true"></i>
-              </span>
-            </button>
-          </header>
           <div class="card-image">
             <figure class="image is-4by3">
               <img src="../assets/brewreview.png" alt="BrewReview" />
             </figure>
           </div>
+          <header class="card-header">
+            <p class="card-header-title">BrewReview</p>
+          </header>
+          <div class="card-content">
+            <div class="content">
+              Fullstack web app with authentication. User can create new
+              favorite brewery pages and leave reviews
+            </div>
+          </div>
+
           <footer class="card-footer">
             <a
               href="https://brewreviews.herokuapp.com/"
@@ -29,18 +31,19 @@
       </div>
       <div class="column">
         <div class="card">
-          <header class="card-header">
-            <p class="card-header-title">Data Collector – Flask App</p>
-            <button class="card-header-icon" aria-label="more options">
-              <span class="icon">
-                <i class="fas fa-angle-down" aria-hidden="true"></i>
-              </span>
-            </button>
-          </header>
           <div class="card-image">
             <figure class="image is-4by3">
               <img src="../assets/datacollector.png" alt="DataCollector" />
             </figure>
+          </div>
+          <header class="card-header">
+            <p class="card-header-title">Data Collector</p>
+          </header>
+          <div class="card-content">
+            <div class="content">
+              Simple Flask app allowing a user to enter demographic information
+              to perform comparisons with other users
+            </div>
           </div>
           <footer class="card-footer">
             <a
@@ -54,14 +57,6 @@
       </div>
       <div class="column">
         <div class="card">
-          <header class="card-header">
-            <p class="card-header-title">Stock Analysis Visualization</p>
-            <button class="card-header-icon" aria-label="more options">
-              <span class="icon">
-                <i class="fas fa-angle-down" aria-hidden="true"></i>
-              </span>
-            </button>
-          </header>
           <div class="card-image">
             <figure class="image is-4by3">
               <img
@@ -69,6 +64,15 @@
                 alt="Stock Analysis Visualization"
               />
             </figure>
+          </div>
+          <header class="card-header">
+            <p class="card-header-title">Stock Analysis Visualization</p>
+          </header>
+          <div class="card-content">
+            <div class="content">
+              Stock market trend chart using Python and Bokeh library to display
+              real-time data customized for the user
+            </div>
           </div>
           <footer class="card-footer">
             <a
@@ -103,4 +107,10 @@ h1 {
   font-weight: bold;
   margin-bottom: 20px;
 }
+.card-header-title {
+  justify-content: center;
+}
+/* .content {
+  margin-top: 1.5rem;
+} */
 </style>
