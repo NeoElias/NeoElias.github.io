@@ -20,30 +20,29 @@ export default {
 
 <style scoped>
 #mybio {
-  margin: 30vh;
+  padding-top: 30vh;
   text-align: center;
   display: flex;
   justify-content: center;
-  height: 40vh;
+  height: 100vh;
 }
 @media only screen and (max-width: 600px) {
   #mybio {
+    padding-top: 30vh;
     margin: auto;
-    margin-top: 30vh;
-    height: 70vh;
+    height: 100vh;
   }
 }
 
 @media only screen and (min-width: 768px) {
   #mybio {
+    padding-top: 30vh;
     margin: auto;
-    margin-top: 30vh;
-    height: 70vh;
+    height: 100vh;
   }
 }
 h1.title {
   margin-bottom: 4px;
-  /* text-transform: uppercase; */
 }
 
 h3 {
