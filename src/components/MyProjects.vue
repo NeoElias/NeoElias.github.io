@@ -97,15 +97,15 @@ export default {
 <style scoped>
 .myprojects {
   text-align: center;
-  margin: 20px;
-  padding: 20px;
+  margin: 1.5rem 1.5rem;
+  padding: 1.5rem;
 }
 
 h1 {
   text-align: center;
   font-size: 1.6rem;
   font-weight: bold;
-  margin-bottom: 20px;
+  margin-bottom: 1.5rem;
 }
 .card-header-title {
   justify-content: center;

@@ -17,7 +17,7 @@
         team.
       </p>
     </div>
-    <div class="column image-container">
+    <div class="column is-one-third image-container">
       <img alt="Profile Image" src="../assets/profile-pic.jpeg" />
     </div>
   </div>
@@ -30,13 +30,10 @@ export default {
 </script>
 
 <style scoped>
-#mystory {
-  margin: 2rem 6.5rem;
-}
 h1 {
   font-size: 1.6rem;
   font-weight: bold;
-  margin-left: 2.4rem;
+  text-align: center;
 }
 p {
   font-size: 1.1rem;
@@ -50,7 +47,6 @@ img {
 .image-container {
   display: flex;
   justify-content: center;
-  margin-top: 2rem;
 }
 @media only screen and (max-width: 600px) {
   #mystory {
@@ -58,6 +54,11 @@ img {
   }
 }
 @media only screen and (min-width: 768px) {
+  #mystory {
+    margin: 1.5rem 3.8rem;
+  }
+}
+@media only screen and (max-width: 768px) {
   #mystory {
     margin: 1.5rem 1.5rem;
   }
