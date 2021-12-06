@@ -1,10 +1,12 @@
 <template>
   <div id="mybio" class="columns">
     <div class="column">
+      <p>Good afternoon &#128075; &nbsp;&nbsp;&nbsp;My name is</p>
       <h1 class="title is-1">{{ msg }}</h1>
-      <h3>Software Developer</h3>
-      <hr class="solid" />
-      <p>I'm a passionate developer with a keen eye for details.</p>
+
+      <p class="dynamic-bio">
+        I'm a passionate developer with a keen eye for details.
+      </p>
     </div>
   </div>
 </template>
@@ -21,10 +23,9 @@ export default {
 <style scoped>
 #mybio {
   padding-top: 30vh;
-  text-align: center;
   display: flex;
-  justify-content: center;
   height: 100vh;
+  padding-left: 7rem;
 }
 @media only screen and (max-width: 600px) {
   #mybio {
@@ -42,17 +43,21 @@ export default {
   }
 }
 h1.title {
-  margin-bottom: 4px;
+  margin-bottom: 0.8rem;
+  margin-left: 1.6rem;
+  font-size: 80px;
 }
 
-h3 {
-  margin-top: 10px;
-  text-transform: uppercase;
-  font-size: 14px;
-}
 hr.solid {
+  margin-top: 0.2rem;
+  margin-left: 2.5rem;
   border-top: 2px solid black;
   width: 4rem;
-  margin: 5px auto 30px;
+}
+p {
+  font-size: 20px;
+}
+.dynamic-bio {
+  margin-left: 3.8rem;
 }
 </style>
