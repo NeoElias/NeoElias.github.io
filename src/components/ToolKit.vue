@@ -122,8 +122,8 @@ h1 {
 }
 
 img {
-  width: 72px;
-  height: 72px;
+  width: 48px;
+  height: 48px;
   vertical-align: middle;
 }
 ul {
@@ -132,6 +132,7 @@ ul {
 ul li p {
   display: inline-block;
   vertical-align: middle;
+  font-size: 0.8rem;
 }
 ul li {
   margin: 5px;
