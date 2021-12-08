@@ -14,8 +14,13 @@
           </header>
           <div class="card-content">
             <div class="content">
-              Fullstack web app with authentication. User can create new
-              favorite brewery pages and leave reviews
+              <p>
+                Fullstack web app with authentication. User can create new
+                favorite brewery pages and leave reviews
+              </p>
+              <p>
+                <mark><u>Technologies:</u></mark> Node.js, Express, MongoDB
+              </p>
             </div>
           </div>
 
@@ -41,8 +46,13 @@
           </header>
           <div class="card-content">
             <div class="content">
-              Simple Flask app allowing a user to enter demographic information
-              to perform comparisons with other users
+              <p>
+                Simple Flask app allowing a user to enter demographic
+                information to perform comparisons with other users
+              </p>
+              <p>
+                <mark><u>Technologies:</u></mark> Python, Flask,Bulma
+              </p>
             </div>
           </div>
           <footer class="card-footer">
@@ -70,8 +80,13 @@
           </header>
           <div class="card-content">
             <div class="content">
-              Stock market trend chart using Python and Bokeh library to display
-              real-time data customized for the user
+              <p>
+                Stock market trend chart using Python and Bokeh library to
+                display real-time data customized for the user
+              </p>
+              <p>
+                <mark><u>Technologies:</u></mark> Python, Bokeh,Pandas
+              </p>
             </div>
           </div>
           <footer class="card-footer">
