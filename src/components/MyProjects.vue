@@ -89,4 +89,7 @@ h1 {
 .card-header-title {
   justify-content: center;
 }
+p {
+  text-align: justify;
+}
 </style>
