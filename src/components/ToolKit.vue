@@ -12,6 +12,7 @@
     </div>
     <div class="column">
       <h5 class="title is-5">Frameworks</h5>
+
       <ul>
         <li v-for="framework in frameworks" :key="framework.name">
           <img :src="framework.icon" alt="framework icon" />
@@ -73,7 +74,7 @@ export default {
         },
         {
           name: "Express",
-          icon: "https://img.icons8.com/color/96/000000/express.png",
+          icon: "https://myvueprojectfiles.s3.us-east-2.amazonaws.com/expressjs.png",
         },
         {
           name: "Flask",
