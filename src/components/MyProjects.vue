@@ -54,7 +54,7 @@ export default {
           image:
             "https://project-images12.s3.us-east-2.amazonaws.com/datacollector.png",
           description:
-            "App allowing a user to enter demographic information to perform comparisons with other users",
+            "Simple app that allows a user to enter demographic information to perform comparisons with other users",
           technologies: "Python, Flask, Bulma",
           url: "https://maraisanewebapps.pythonanywhere.com/",
         },
@@ -91,5 +91,18 @@ h1 {
 }
 p {
   text-align: justify;
+}
+.card {
+  box-shadow: 8px 14px 38px rgba(39, 44, 49, 0.06),
+    1px 3px 8px rgba(39, 44, 49, 0.03);
+  overflow: hidden;
+  transition: all 0.5s ease;
+}
+.card:hover {
+  transform: translate3d(0, -1px, 0) scale(1.03);
+  box-shadow: 8px 28px 50px rgba(39, 44, 49, 0.07),
+    1px 6px 12px rgba(39, 44, 49, 0.04);
+  transition: all 0.4s ease; /* zoom in */
+  cursor: pointer;
 }
 </style>
