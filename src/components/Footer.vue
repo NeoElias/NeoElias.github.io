@@ -14,3 +14,19 @@ export default {
   name: "Footer",
 };
 </script>
+
+<style scoped>
+.footer {
+  background-color: midnightblue;
+}
+p {
+  color: white;
+}
+strong {
+  color: white;
+}
+
+a {
+  color: beige;
+}
+</style>
